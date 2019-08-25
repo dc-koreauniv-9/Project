@@ -14,7 +14,7 @@ def model():
 
 @app.route('/3p/')
 def hello_world3():
-    return render_template('index3p.html')
+    return 'hello'
 
 @app.route('/4p/')
 def hello_world4():
